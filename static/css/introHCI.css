@@ -14,21 +14,18 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #DCDCDC;
 }
 
 .jumbotron {
 	position: relative;
-	background: none;
+	background-color: #00BFFF;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;	
+.project {
+     margin-left: 20px;
+}
+
+#nameheader {
+     color: white;
 }
